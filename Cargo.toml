@@ -1,6 +1,6 @@
 [workspace]
 
 members = [
-  "compress_youtube", "decompress",
+  "compress", "decompress",
 ]
 
