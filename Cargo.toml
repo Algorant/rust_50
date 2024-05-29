@@ -2,6 +2,6 @@
 resolver = "1"
 
 members = [
-  "compress", "decompress", "read_csv",
+  "compress", "decompress", "read_csv", "read_json",
 ]
 
