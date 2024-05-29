@@ -1,6 +1,6 @@
 # 50 Projects in Rust
 
-![](https://img.shields.io/badge/Code-Rust-informational
+<img height="200" width="200" align=center src="https://cdn.simpleicons.org/rust/ce412b">
 
 This is a collection of 50 rust projects based on the Youtube Playlist by [Akhil Sharma](https://www.youtube.com/playlist?list=PL5dTjWUk_cPYuhHm9_QImW7_u4lr5d6zO).
 
