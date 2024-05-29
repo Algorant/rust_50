@@ -1,6 +1,7 @@
 [workspace]
+resolver = "1"
 
 members = [
-  "compress", "decompress",
+  "compress", "decompress", "read_csv",
 ]
 
