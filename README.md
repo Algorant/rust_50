@@ -15,3 +15,4 @@ The ones that are completely new are annotated.
 3. [read_csv](./read_csv/) - Reads csv and outputs to stdout.
 4. [read_json](./read_json/) - Reads in JSON using [serde](https://serde.rs/).
 5. [write_json](./write_json) - Writes JSON to stdout using [serde](https://serde.rs/).
+6. [get_request](./get_request) - A simple Get request to an API. Prints out Status, Headers, and Body. Uses [reqwest](https://docs.rs/reqwest/latest/reqwest/) and [error_chain](https://docs.rs/error-chain/latest/error_chain/)
