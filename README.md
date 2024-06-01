@@ -16,3 +16,4 @@ The ones that are completely new are annotated.
 4. [read_json](./read_json/) - Reads in JSON using [serde](https://serde.rs/).
 5. [write_json](./write_json) - Writes JSON to stdout using [serde](https://serde.rs/).
 6. [get_request](./get_request) - A simple Get request to an API. Prints out Status, Headers, and Body. Uses [reqwest](https://docs.rs/reqwest/latest/reqwest/) and [error_chain](https://docs.rs/error-chain/latest/error_chain/)
+7. [async](./async_await/) - Similar to 6, except uses async await in typical fashion found in Javascript/Typescript. Also encorporates [anyhow](https://docs.rs/anyhow/latest/anyhow/) and [thiserror](https://docs.rs/thiserror/latest/thiserror/).
