@@ -1,7 +1,7 @@
 [workspace]
 resolver = "1"
 
-members = [ "api_calls", "async_await",
+members = [ "api_calls", "async_await", "auth",
   "compress", "decompress", "get_request", "read_csv", "read_json", "write_json",
 ]
 
