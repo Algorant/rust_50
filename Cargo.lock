@@ -657,6 +657,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "image_download"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "reqwest",
+ "tempfile",
+ "thiserror",
+ "tokio",
+]
+
+[[package]]
 name = "indexmap"
 version = "2.2.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"

@@ -1,0 +1,13 @@
+[package]
+name = "image_download"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.86"
+reqwest = "0.12.4"
+tempfile = "3.10.1"
+thiserror = "1.0.61"
+tokio = { version = "1.38.0", features = ["full"] }
