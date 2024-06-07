@@ -21,3 +21,4 @@ The ones that are completely new are annotated.
 9. [auth](./auth/) - Simple authentication using [reqwest](https://docs.rs/reqwest/latest/reqwest/).
 10. [image_download](./image_download/) - Downloads an image to a temporary directory.
 11. [extract_links](./extract_links/) - Extracts links from a webpage using [reqwest](https://docs.rs/reqwest/latest/reqwest/).
+12. [rust-sqlite](./rust-sqlite/) - Creates a couple of sqlite databases and inserts an entry into one of them.

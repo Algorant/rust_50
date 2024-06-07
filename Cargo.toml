@@ -2,6 +2,6 @@
 resolver = "1"
 
 members = [ "api_calls", "async_await", "auth",
-  "compress", "decompress", "extract_links", "get_request", "image_download", "read_csv", "read_json", "write_json",
+  "compress", "decompress", "extract_links", "get_request", "image_download", "read_csv", "read_json", "rust-sqlite", "write_json",
 ]
 
