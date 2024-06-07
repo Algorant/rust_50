@@ -22,3 +22,4 @@ The ones that are completely new are annotated.
 10. [image_download](./image_download/) - Downloads an image to a temporary directory.
 11. [extract_links](./extract_links/) - Extracts links from a webpage using [reqwest](https://docs.rs/reqwest/latest/reqwest/).
 12. [rust-sqlite](./rust-sqlite/) - Creates a couple of sqlite databases and inserts an entry into one of them.
+13. [mongo_db_connect](./mongo_conn/) - Connects to a mongodb instance and lists the dbs found therein.
