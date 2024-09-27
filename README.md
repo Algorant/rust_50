@@ -25,3 +25,4 @@ The ones that are completely new are annotated.
 13. [mongo_db_connect](./mongo_conn/) - Connects to a mongodb instance and lists the dbs found therein.
 14. [postgres_conn](./psql_conn) - Connects to a postgres instance and creates some tables in the chose db.
 15. [postgres_conn](./psql_conn) - Extends functionality of previous, adding writes and other info.
+16. [actix_api](./actix_api/) - Simple API using [Actix Web](https://actix.rs/) and [Rhai](https://rhai.rs/). Does basic mathematical operations.
