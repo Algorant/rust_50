@@ -2,7 +2,7 @@ use std::result::Result;
 use sqlx::{sqlite::SqliteQueryResult, Sqlite, SqlitePool, migrate::MigrateDatabase};
 
 async fn create_schema(db_url:&str) -> Result<SqliteQueryResult, sqlx::Error> {
-    let pool = SqlitePool::connect(&db_url).await?;
+    let pool = SqlitePool::connect(db_url).await?;
     let qry = 
     "PRAGMA foreign_keys = ON ;
     CREATE TABLE IF NOT EXISTS settings
@@ -26,9 +26,9 @@ async fn create_schema(db_url:&str) -> Result<SqliteQueryResult, sqlx::Error> {
             FOREIGN KEY (settings_id)    REFERENCES settings (settings_id) ON UPDATE SET NULL ON DELETE SET NULL
         );";
 
-    let result = sqlx::query(&qry).execute(&pool).await;
+    let result = sqlx::query(qry).execute(&pool).await;
     pool.close().await;
-    return result;
+    result
 }
 
 #[async_std::main]
@@ -44,7 +44,7 @@ async fn main() {
     }
     let instances = SqlitePool::connect(&db_url).await.unwrap();
     let qry = "INSERT INTO settings (description) VALUES($1)";
-    let result = sqlx::query(&qry).bind("testing").execute(&instances).await;
+    let result = sqlx::query(qry).bind("testing").execute(&instances).await;
     
     instances.close().await;
     println!("{:?}", result);

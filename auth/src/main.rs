@@ -1,4 +1,5 @@
 use reqwest::{blocking::Client, Error};
+use reqwest::
 
 fn main() -> Result<(), Error> {
     let client = Client::new();

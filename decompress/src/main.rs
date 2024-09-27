@@ -5,7 +5,6 @@ fn main() {
     std::process::exit(real_main());
 }
 
-
 fn real_main() -> i32 {
     let args: Vec<_> = std::env::args().collect();
 
@@ -24,7 +23,6 @@ fn real_main() -> i32 {
         let outpath = match file.enclosed_name() {
             Some(path) => path.to_owned(),
             None => continue,
-
         };
         {
             let comment = file.comment();
@@ -32,7 +30,7 @@ fn real_main() -> i32 {
                 println!("File {} comment: {}", i, comment);
             }
         }
-        if (*file.name()).ends_with('/'){
+        if (*file.name()).ends_with('/') {
             println!("File {} extracted to\"{}\"", i, outpath.display());
             fs::create_dir_all(&outpath).unwrap();
         } else {
@@ -53,7 +51,7 @@ fn real_main() -> i32 {
         // Set permissions for different files system
         #[cfg(unix)]
         {
-            use::std::os::unix::fs::PermissionsExt;
+            use ::std::os::unix::fs::PermissionsExt;
 
             if let Some(mode) = file.unix_mode() {
                 fs::set_permissions(&outpath, fs::Permissions::from_mode(mode)).unwrap();
@@ -62,5 +60,4 @@ fn real_main() -> i32 {
     }
 
     0
-
 }

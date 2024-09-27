@@ -1,5 +1,6 @@
 use csv;
 use std::error::Error;
+use serde::
 
 fn read_from_file(path: &str) -> Result<(), Box<dyn Error>> {
     let mut reader = csv::Reader::from_path(path)?;
