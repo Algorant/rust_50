@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 =======
 # Git Auto Commit & Push
 
@@ -69,7 +68,6 @@ A simple Rust utility that automatically adds all changes, creates a commit with
 ## Installation
 
 1. Add the following dependency to your `Cargo.toml`:
->>>>>>> Snippet
 ## git-autoflow
 
 ### Usage
