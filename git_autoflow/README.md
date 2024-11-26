@@ -1,85 +1,26 @@
-=======
-# Git Auto Commit & Push
+# Git Autoflow
 
-A simple Rust utility that automatically adds all changes, creates a commit with a random name, and pushes to the remote repository.
+A simple CLI tool that automates the process of updating a commit and pushing it to a remote branch.
 
-## Prerequisites
+## Building
 
-- Rust and Cargo installed on your system
-- Git installed and configured
-- A git repository initialized with a remote origin set up
+To build the project, run the following command:
 
-## Installation
+```bash
+cargo build --release
+```
 
-1. Add the following dependency to your `Cargo.toml`:
-=======
-# Git Auto Commit & Push
+## Installing
 
-A simple Rust utility that automatically adds all changes, creates a commit with a random name, and pushes to the remote repository.
+To install the project, run the following command:
 
-## Prerequisites
+```bash
+cargo install --path .
 
-- Rust and Cargo installed on your system
-- Git installed and configured
-- A git repository initialized with a remote origin set up
+## Runnning
 
-## Installation
+To run the project, run the following command:
 
-1. Add the following dependency to your `Cargo.toml`:
-=======
-# Git Auto Commit & Push
-
-A simple Rust utility that automatically adds all changes, creates a commit with a random name, and pushes to the remote repository.
-
-## Prerequisites
-
-- Rust and Cargo installed on your system
-- Git installed and configured
-- A git repository initialized with a remote origin set up
-
-## Installation
-
-1. Add the following dependency to your `Cargo.toml`:
-=======
-# Git Auto Commit & Push
-
-A simple Rust utility that automatically adds all changes, creates a commit with a random name, and pushes to the remote repository.
-
-## Prerequisites
-
-- Rust and Cargo installed on your system
-- Git installed and configured
-- A git repository initialized with a remote origin set up
-
-## Installation
-
-1. Add the following dependency to your `Cargo.toml`:
-=======
-# Git Auto Commit & Push
-
-A simple Rust utility that automatically adds all changes, creates a commit with a random name, and pushes to the remote repository.
-
-## Prerequisites
-
-- Rust and Cargo installed on your system
-- Git installed and configured
-- A git repository initialized with a remote origin set up
-
-## Installation
-
-1. Add the following dependency to your `Cargo.toml`:
-## git-autoflow
-
-### Usage
-
-This is a simple tool to help you to manage your git flow. 
-
-It is a command line tool that will help you to create a new branch, switch between branches, merge branches, and more.
-
-### Commands
-
-
-
-
-
-
+```bash
+git-autoflow
+```
