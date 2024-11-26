@@ -2,7 +2,7 @@
 resolver = "1"
 
 members = [ "actix_api", "api_calls", "async_await", "auth",
-  "compress", "decompress", "extract_links", "get_request", "git_autoflow", "image_download", "mongo_conn", "psql_conn", "read_csv", "read_json", "rust-sqlite", "write_json",
+  "compress", "decompress", "extract_links", "get_request", "git_autoflow", "image_download", "mongo_conn", "pass_vault", "psql_conn", "read_csv", "read_json", "rust-sqlite", "write_json",
 ]
 
 
