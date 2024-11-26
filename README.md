@@ -27,5 +27,6 @@ The ones that are completely new are annotated.
 15. [postgres_conn](./psql_conn) - Extends functionality of previous, adding writes and other info.
 16. [actix_api](./actix_api/) - Simple API using [Actix Web](https://actix.rs/) and [Rhai](https://rhai.rs/). Does basic mathematical operations.
 17. [git_autoflow](./git_autoflow/) - A simple CLI tool that automates the process of updating a commit and pushing it to a remote branch.
+18. [pass_vault](./pass_vault/) - A simple password manager CLI tool.
 
 
